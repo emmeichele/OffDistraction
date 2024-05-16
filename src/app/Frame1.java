@@ -271,7 +271,7 @@ public class Frame1 extends JFrame implements ActionListener{
 	copy = Admin.getAdmins(0);
 		
 	String xxx = copy.getPassword() + "\n";
-	System.out.println("porcodio sto dentro il quit: " + xxx);
+	System.out.println("sto dentro il quit: " + xxx);
 	
 		try {
 			System.out.println("path: " + System.getProperty("user.dir"));

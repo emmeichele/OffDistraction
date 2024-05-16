@@ -63,7 +63,7 @@ public class MessageLog extends JDialog {
 			lblNewLabel.setBounds(352, 59, 32, 32);
 			layeredPane.add(lblNewLabel);
 			
-			ImageIcon img = new ImageIcon("/Users/michelecorcione/eclipse-workspace/OffDistraction/src/app/static/accept1.png");
+			ImageIcon img = new ImageIcon("path_to_file");
 			lblNewLabel.setIcon(img);
 			
 			Label label = new Label("Message:");

@@ -81,7 +81,7 @@ public class WelcomeFrame extends JFrame {
 		});
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon("/Users/michelecorcione/Desktop/style_app/icontest.png"));
+		lblNewLabel_1.setIcon(new ImageIcon("path_to_image"));
 		lblNewLabel_1.setBounds(111, 17, 237, 135);
 		contentPane.add(lblNewLabel_1);
 		

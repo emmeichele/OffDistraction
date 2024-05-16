@@ -1,3 +1,9 @@
+/*
+
+Scemo chi legge
+
+*/
+
 package app;
 
 import java.awt.BorderLayout;
@@ -103,7 +109,7 @@ public class Frame2 extends JFrame {
 			System.out.println("path: " + System.getProperty("user.dir"));
 			Process p = Runtime.getRuntime().exec("sudo -S sh " + System.getProperty("user.dir") + "/src/app/static/activeapps.sh " + pid );
 			OutputStream os = p.getOutputStream();
-			    os.write("codaslowpoke\n".getBytes());
+			    os.write("teamrocket123\n".getBytes());
 			    os.flush();
 			    os.close();
 			   		
